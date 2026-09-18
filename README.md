@@ -14,9 +14,11 @@ Start with [PCART](https://github.com/PCART-tools/PCART) for API compatibility r
 |---|---|---|
 | API compatibility | Repair API parameter incompatibilities after library upgrades | [PCART](https://github.com/PCART-tools/PCART) |
 | Dependency compatibility | Infer compatible requirements for Python third-party library upgrades | [PCREQ](https://github.com/PCART-tools/PCREQ) |
-| API ownership and provenance analysis | Classify Python API call ownership and trace library usage provenance in Python projects | [PCResolve](https://github.com/PCART-tools/PCResolve) |
-| Native API extraction | Generate stubs for Python C extension APIs | [PCStubGen](https://github.com/PCART-tools/PCStubGen) |
-| Compatibility risks | Detect variadic parameter compatibility pitfalls in Python APIs | [VPPDetector](https://github.com/PCART-tools/VPPDetector) |
+| API ownership and provenance analysis | Identify library-owned calls and trace provenance to scope upgrade analysis | [PCResolve](https://github.com/PCART-tools/PCResolve) |
+| Native API extraction | Generate stubs for Python C extension APIs to support cross-version interface comparison | [PCStubGen](https://github.com/PCART-tools/PCStubGen) |
+| Compatibility risks | Detect compatibility risks from variadic arguments forwarded to APIs with fixed signatures | [VPPDetector](https://github.com/PCART-tools/VPPDetector) |
+
+These supporting tools complement API repair with PCART and compatible requirements inference with PCREQ.
 
 ## Benchmarks and Artifacts
 
