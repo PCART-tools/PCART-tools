@@ -24,6 +24,7 @@ These supporting tools complement API repair with PCART and compatible requireme
 
 - [PCBench](https://github.com/PCART-tools/PCBench): Benchmark for Python API parameter compatibility issues.
 - [REQBench](https://github.com/PCART-tools/REQBench): Benchmark for compatible requirements inference in Python third-party library upgrades.
+- [PCBench-D](https://github.com/PCART-tools/PCBench-D): Benchmark for deprecated API–replacement API evolution and post-deprecation lifecycles in Python libraries.
 - [PCART-evaluation](https://github.com/PCART-tools/PCART-evaluation) and [PCREQ-evaluation](https://github.com/PCART-tools/PCREQ-evaluation): Evaluation artifacts for reproducing experimental results.
 - [PCART-LLM](https://github.com/PCART-tools/PCART-LLM): Research artifact for LLM-based API compatibility analysis.
 - [WebPCART](https://github.com/PCART-tools/WebPCART): Web platform for PCART-based compatibility analysis.
